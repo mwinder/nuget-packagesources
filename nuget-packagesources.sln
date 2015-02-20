@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Core", "Application.Core\Application.Core.csproj", "{FA1A8A3B-BC8C-4F86-A8F5-C65DCC61E9C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{6FFA8CBD-9C66-4163-9191-DA3C0333C727}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".root", ".root", "{47EB2998-B6B4-4FC7-B2F4-C1BFE73049FD}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		NuGet.Config = NuGet.Config
+		package.ps1 = package.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{04565EFD-89C8-45D0-808B-C4F874942236}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA1A8A3B-BC8C-4F86-A8F5-C65DCC61E9C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA1A8A3B-BC8C-4F86-A8F5-C65DCC61E9C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA1A8A3B-BC8C-4F86-A8F5-C65DCC61E9C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA1A8A3B-BC8C-4F86-A8F5-C65DCC61E9C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FFA8CBD-9C66-4163-9191-DA3C0333C727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFA8CBD-9C66-4163-9191-DA3C0333C727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFA8CBD-9C66-4163-9191-DA3C0333C727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFA8CBD-9C66-4163-9191-DA3C0333C727}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
